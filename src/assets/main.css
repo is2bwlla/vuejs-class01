@@ -1,0 +1,42 @@
+@import "./base.css";
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --font-poppins: 'Poppins', sans-serif;
+}
+  
+body {
+    font-family: var(--font-poppins);
+}
+
+.progress {
+    appearance: none;
+}
+  
+.progress::-webkit-progress-bar {
+    background-color: #e5e7eb; 
+    border-radius: 9999px;
+}
+
+.progress::-webkit-progress-value {
+    background-color: #fc7dc9; 
+    border-radius: 9999px;
+}
+/* Muda a cor da faixa (track) */
+input[type="range"] {
+    appearance: none;
+    height: 8px;
+    background-color: #e5e7eb; 
+    border-radius: 9999px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    background-color: #fc7dc9; 
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+  

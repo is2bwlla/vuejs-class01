@@ -29,6 +29,7 @@ const multiploInput = ref([])
 </script>
 
 <template>
+  <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 05</p>
   <label for="input">Entrada de Texto:</label>
   <input type="text" id="input" v-model="textInput" />
   <span>{{ textInput }}</span>

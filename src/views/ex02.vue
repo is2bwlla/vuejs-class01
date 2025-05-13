@@ -20,11 +20,14 @@ function clicar(e) {
 </script>
 
 <template>
-  <h1>{{ texto }}</h1>
-  <button v-on:click="reverter()">Reverter a Mensagem</button>
-  <button v-on:click="addExclamacao()">!</button>
+  <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 02</p>
+  <h1 class="text-xl">{{ texto }}</h1>
+  <div class="flex gap-1">
+    <button v-on:click="reverter()" class="text-white bg-[#fc7dc9] p-1 cursor-pointer rounded">Reverter a Mensagem</button>
+    <button v-on:click="addExclamacao()" class="text-white bg-[#fc7dc9] p-1 cursor-pointer rounded">!</button>
+  </div>
   <br>
-  <a @click.prevent="clicar">Uma ligação com preventDefault()</a>
+  <a @click.prevent="clicar" class="cursor-pointer">Uma ligação com preventDefault()</a>
 </template>
 
 <style scoped>

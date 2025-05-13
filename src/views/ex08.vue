@@ -15,6 +15,7 @@ function marcar() {
 </script>
 
 <template>
+  <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 08</p>
   <select id="selectedTrip" v-model="selectedTrip">
     <option value="Voo só de Ida">Voo só de Ida</option>
     <option value="Voo com regresso">Voo com regresso</option>

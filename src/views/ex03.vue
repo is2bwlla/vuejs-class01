@@ -31,6 +31,7 @@ function mudarCor2() {
 </script>
 
 <template>
+  <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 03</p>
   <p :title="mouse">Paire o mouse sobre mim por alguns segundos para ver o título saltar dinamicamente</p>
 
   <p @click="mudarCor" :style="{ color: clicado ? 'red' : 'black' }">

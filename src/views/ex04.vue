@@ -35,6 +35,7 @@ function Inverter() {
 </script>
 
 <template>
+    <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 04</p>
     <button @click="Alternar">Alternar lista</button>
     <button @click="Adicionar">Adicionar número</button>
     <button @click="Remover">Remover número</button>

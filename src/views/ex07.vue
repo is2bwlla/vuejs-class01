@@ -13,6 +13,7 @@ function converter() {
 </script>
 
 <template>
+    <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 07</p>
     <label for="inputCelsius">Temperatura em Celsius:</label>
     <input type="number" id="inputCelsius" v-model="celsius">
 

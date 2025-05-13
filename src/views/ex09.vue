@@ -51,6 +51,7 @@ onBeforeUnmount(() => parar())
 </script>
 
 <template>
+  <p class="text-xl font-bold underline text-[#fc7dc9]">Exercício 09</p>
   <div class="flex justify-center flex-col">
     <div class="flex items-center gap-2">
       <label class="font-semibold">Tempo Decorrido:</label>
